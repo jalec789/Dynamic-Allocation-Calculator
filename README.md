@@ -1,27 +1,27 @@
-#Description
+# Description
 
-####Introduction
+#### Introduction
 Hello, I am Jason Chan. This is a showcase project I like to use to demonstrate not only my skill in programming but also demonstrating my early formatting disipline and capabilities. This project was created in 2017 and I have come a long way so this project doesn't represent my current abilities.
 
-####What does it do?
+#### What does it do?
 This is a dynamically allocated calculator. Utilizing stack memory this calculator stores 1 byte digits and can allocate input based on the size of the stack. Simply said this calculator allows one to input numbers that traditional calculators would have a hard time storing, surpassing the input size of even Windows10's native calculator as of 2021.
 
-####What technologies are used?
+#### What technologies are used?
 Well this program is pretty simple, just make sure you have c++ installed. The makefile simply uses `g++ -g` to compile.
 
-####Ambition
+#### Ambition
 This tech could go beyond towards creating a hefty calculator.
 
-####Current Stage
+#### Current Stage
 This calculator currently only takes 2 inputs and displays one output but this could go on to become bigger than what it already is.
 
-####Issues and Plans
+#### Issues and Plans
 - Currently there is an issue with letter input that would be an easy fix.
 - If adding more functionality to this project, maybe try taking output as input for next operations.
 - Division functionality
 - Unit testing
 
-#How to Run
+# How to Run
 The makefile has information to run the program but the quick and easy version is here. In the terminal, navigate to the directory containing all files. Then compile with...
 `make all`
 And run with...
